@@ -23,6 +23,17 @@ def main():
 
     # Display the selected image
     st.image(image_urls[selected_option], caption=f"Selected Option: {selected_option}", use_column_width=True)
+
+
+
+
+
+
+
+
+
+
+    
     st.markdown("<p style='color: red;'>Note : G3 lab is on Tuesday And G2 on Wednesday.Will update Tomorrow</p>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
